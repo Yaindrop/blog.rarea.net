@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-color: #EEEEEE;
+    overflow-x: hidden;
+    font-size: 1em;
+    font-family: Arial;
+}
+.item{
+    width: 80vw;
+    margin: auto;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    padding: 3vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    font-family: Arial;
+}
+#head{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 3rem;
+    font-family: "Courier";
+}
+#foot {
+    font-family: "Courier";
+    padding: auto;
+}
+#foot a{
+    color: black;
+    display: table;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    color: CornflowerBlue;
+}
