@@ -31,6 +31,7 @@ html{
 #foot {
     font-family: "Courier";
     padding: auto;
+    background-color: #EEEEEE;
 }
 #foot a{
     color: black;
