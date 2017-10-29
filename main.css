@@ -39,8 +39,8 @@ html{
 }
 a{
     text-decoration: none;
-    color: DeepSkyBlue;
+    color: CornflowerBlue;
 }
 a:hover {
-    color: CornflowerBlue;
+    color: DeepSkyBlue;
 }
