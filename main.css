@@ -30,8 +30,8 @@ html{
 }
 #foot {
     font-family: "Courier";
+    font-size: 2rem;
     padding: auto;
-    background-color: #EEEEEE;
 }
 #foot a{
     color: black;
