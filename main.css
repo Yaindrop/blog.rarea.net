@@ -28,9 +28,12 @@ html{
     font-size: 3rem;
     font-family: "Courier";
 }
+#head a{
+    color: black;
+}
 #foot {
     font-family: "Courier";
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: auto;
 }
 #foot a{
@@ -44,4 +47,23 @@ a{
 }
 a:hover {
     color: DeepSkyBlue;
+}
+
+/*Small Screen*/
+@media screen and (max-width: 700px){
+    html{
+        font-size: 1.5em;
+    }
+    .item{
+        width: 100vw;
+    }
+}
+/*Medium Screen*/
+@media screen and (min-width: 701px) and (max-width: 1400px){
+    html{
+        font-size: 1.2em;
+    }
+    .item{
+        width: 90vw;
+    }
 }
