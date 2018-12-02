@@ -7,7 +7,13 @@ html{
     background-color: #EEEEEE;
     overflow-x: hidden;
     font-size: 1em;
-    font-family: Arial;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: cornflowerblue;
 }
 .item{
     width: 80vw;
@@ -20,51 +26,45 @@ html{
     background-color: white;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     font-size: 1rem;
-    font-family: Arial;
+    font-family: "Arial", "STHeiTi", "Microsoft YaHei";
     line-height: 1.7em;
 }
 #head{
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    font-size: 3rem;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     font-family: "Courier";
-}
-#head a{
-    color: black;
+    font-size: 3rem;
 }
 #foot {
+    padding: auto;
     font-family: "Courier";
     font-size: 1rem;
-    padding: auto;
 }
 #foot a{
-    color: black;
-    display: table;
     margin: auto;
+    display: table;
 }
-a{
-    text-decoration: none;
-    color: CornflowerBlue;
+/*Medium Screen*/
+@media only screen and (min-width: 701px) and (max-width: 1400px){
+    html{
+        font-size: 1.2em;
+    }
+    .item{
+        width: 90vw;
+    }
+    #head{
+        font-size: 6vw;
+    }
 }
-a:hover {
-    color: DeepSkyBlue;
-}
-
 /*Small Screen*/
-@media screen and (max-width: 700px){
+@media only screen and (max-width: 700px){
     html{
         font-size: 1.5em;
     }
     .item{
         width: 100vw;
     }
-}
-/*Medium Screen*/
-@media screen and (min-width: 701px) and (max-width: 1400px){
-    html{
-        font-size: 1.2em;
-    }
-    .item{
-        width: 90vw;
+    #head{
+        font-size: 10vw;
     }
 }
