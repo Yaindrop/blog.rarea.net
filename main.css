@@ -6,6 +6,7 @@
 html{
     background-color: #EEEEEE;
     overflow-x: hidden;
+    font-family: "Arial", "STHeiTi", "Microsoft YaHei";
     font-size: 1em;
 }
 a{
@@ -26,7 +27,6 @@ a:hover {
     background-color: white;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     font-size: 1rem;
-    font-family: "Arial", "STHeiTi", "Microsoft YaHei";
     line-height: 1.7em;
 }
 #head {
@@ -40,7 +40,7 @@ a:hover {
 }
 #info {
     padding: auto;
-    font-family: "Courier", "Fangsong", "Microsoft YaHei";
+    font-family: "Courier", "Fangsong", "STFangsong", "Microsoft YaHei";
     font-size: 1rem;
 }
 #foot {
