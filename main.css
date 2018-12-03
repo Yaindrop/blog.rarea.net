@@ -35,6 +35,11 @@ a:hover {
     font-family: "Courier";
     font-size: 3rem;
 }
+#info {
+    padding: auto;
+    font-family: "Courier", "Fangsong", "Microsoft YaHei";
+    font-size: 1rem;
+}
 #foot {
     padding: auto;
     font-family: "Courier";
