@@ -29,11 +29,14 @@ a:hover {
     font-family: "Arial", "STHeiTi", "Microsoft YaHei";
     line-height: 1.7em;
 }
-#head{
+#head {
     padding-top: 1vh;
     padding-bottom: 1vh;
     font-family: "Courier";
     font-size: 3rem;
+}
+#current {
+    font-weight: bold;
 }
 #info {
     padding: auto;
